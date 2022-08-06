@@ -1,0 +1,12 @@
+C:\Users\n20c1\Documents\GitHub\N_TierArchitectureProject\NKatmanliProje\EntityLayer\bin\Debug\net6.0\EntityLayer.deps.json
+C:\Users\n20c1\Documents\GitHub\N_TierArchitectureProject\NKatmanliProje\EntityLayer\bin\Debug\net6.0\EntityLayer.dll
+C:\Users\n20c1\Documents\GitHub\N_TierArchitectureProject\NKatmanliProje\EntityLayer\bin\Debug\net6.0\EntityLayer.pdb
+C:\Users\n20c1\Documents\GitHub\N_TierArchitectureProject\NKatmanliProje\EntityLayer\obj\Debug\net6.0\EntityLayer.csproj.AssemblyReference.cache
+C:\Users\n20c1\Documents\GitHub\N_TierArchitectureProject\NKatmanliProje\EntityLayer\obj\Debug\net6.0\EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\n20c1\Documents\GitHub\N_TierArchitectureProject\NKatmanliProje\EntityLayer\obj\Debug\net6.0\EntityLayer.AssemblyInfoInputs.cache
+C:\Users\n20c1\Documents\GitHub\N_TierArchitectureProject\NKatmanliProje\EntityLayer\obj\Debug\net6.0\EntityLayer.AssemblyInfo.cs
+C:\Users\n20c1\Documents\GitHub\N_TierArchitectureProject\NKatmanliProje\EntityLayer\obj\Debug\net6.0\EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\n20c1\Documents\GitHub\N_TierArchitectureProject\NKatmanliProje\EntityLayer\obj\Debug\net6.0\EntityLayer.dll
+C:\Users\n20c1\Documents\GitHub\N_TierArchitectureProject\NKatmanliProje\EntityLayer\obj\Debug\net6.0\refint\EntityLayer.dll
+C:\Users\n20c1\Documents\GitHub\N_TierArchitectureProject\NKatmanliProje\EntityLayer\obj\Debug\net6.0\EntityLayer.pdb
+C:\Users\n20c1\Documents\GitHub\N_TierArchitectureProject\NKatmanliProje\EntityLayer\obj\Debug\net6.0\ref\EntityLayer.dll

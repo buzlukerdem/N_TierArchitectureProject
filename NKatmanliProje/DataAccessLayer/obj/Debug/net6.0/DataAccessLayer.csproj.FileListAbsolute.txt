@@ -1,0 +1,17 @@
+C:\Users\n20c1\Documents\GitHub\N_TierArchitectureProject\NKatmanliProje\DataAccessLayer\bin\Debug\net6.0\DataAccessLayer.deps.json
+C:\Users\n20c1\Documents\GitHub\N_TierArchitectureProject\NKatmanliProje\DataAccessLayer\bin\Debug\net6.0\DataAccessLayer.runtimeconfig.json
+C:\Users\n20c1\Documents\GitHub\N_TierArchitectureProject\NKatmanliProje\DataAccessLayer\bin\Debug\net6.0\DataAccessLayer.dll
+C:\Users\n20c1\Documents\GitHub\N_TierArchitectureProject\NKatmanliProje\DataAccessLayer\bin\Debug\net6.0\DataAccessLayer.pdb
+C:\Users\n20c1\Documents\GitHub\N_TierArchitectureProject\NKatmanliProje\DataAccessLayer\bin\Debug\net6.0\EntityLayer.dll
+C:\Users\n20c1\Documents\GitHub\N_TierArchitectureProject\NKatmanliProje\DataAccessLayer\bin\Debug\net6.0\EntityLayer.pdb
+C:\Users\n20c1\Documents\GitHub\N_TierArchitectureProject\NKatmanliProje\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\n20c1\Documents\GitHub\N_TierArchitectureProject\NKatmanliProje\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\n20c1\Documents\GitHub\N_TierArchitectureProject\NKatmanliProje\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\n20c1\Documents\GitHub\N_TierArchitectureProject\NKatmanliProje\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.AssemblyInfo.cs
+C:\Users\n20c1\Documents\GitHub\N_TierArchitectureProject\NKatmanliProje\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\n20c1\Documents\GitHub\N_TierArchitectureProject\NKatmanliProje\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.csproj.CopyComplete
+C:\Users\n20c1\Documents\GitHub\N_TierArchitectureProject\NKatmanliProje\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.dll
+C:\Users\n20c1\Documents\GitHub\N_TierArchitectureProject\NKatmanliProje\DataAccessLayer\obj\Debug\net6.0\refint\DataAccessLayer.dll
+C:\Users\n20c1\Documents\GitHub\N_TierArchitectureProject\NKatmanliProje\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.pdb
+C:\Users\n20c1\Documents\GitHub\N_TierArchitectureProject\NKatmanliProje\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.genruntimeconfig.cache
+C:\Users\n20c1\Documents\GitHub\N_TierArchitectureProject\NKatmanliProje\DataAccessLayer\obj\Debug\net6.0\ref\DataAccessLayer.dll
