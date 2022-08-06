@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "37R0sK6oaIMUxJ8CGrjqywilpJLyrq/e7jxubY/VPqP2VwVyAQeZKGYntQ0cKkc19qVZvvwTXXa/gEi+QUCUig==",
+  "dgSpecHash": "7knYqYvKBkzVBiIF+P7uLB1T87Kkkh2EKp7BiJN75dzyY1P7HCLUG5kN+l7vXljlFJ97VGnaNSJCIEFxeVeIYg==",
   "success": true,
   "projectFilePath": "C:\\Users\\n20c1\\Documents\\GitHub\\N_TierArchitectureProject\\NKatmanliProje\\DataAccessLayer\\DataAccessLayer.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\n20c1\\.nuget\\packages\\fluentvalidation\\11.1.0\\fluentvalidation.11.1.0.nupkg.sha512",
+    "C:\\Users\\n20c1\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.1.3\\fluentvalidation.aspnetcore.11.1.3.nupkg.sha512",
+    "C:\\Users\\n20c1\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.1.0\\fluentvalidation.dependencyinjectionextensions.11.1.0.nupkg.sha512",
     "C:\\Users\\n20c1\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\n20c1\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\n20c1\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
