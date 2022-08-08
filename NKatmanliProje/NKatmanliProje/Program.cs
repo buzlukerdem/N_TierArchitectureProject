@@ -1,7 +1,14 @@
+using DataAccessLayer.Concrete;
+using EntityLayer.Concrete;
+using NKatmanliProje.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddDbContext<Context>();
+builder.Services.AddIdentity<AppUser, AppRole>().AddEntityFrameworkStores<Context>().AddErrorDescriber < CustomerIdentityValidator>();
+
 
 var app = builder.Build();
 

@@ -59,6 +59,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iXFVwZGF0ZUpvYi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/n20c1/Documents/GitHub/N_TierArchitectureProject/NKatmanliProje/NKatmanliProje/Views/Login/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/n20c1/Documents/GitHub/N_TierArchitectureProject/NKatmanliProje/NKatmanliProje/Views/Partials/Partial_Footer.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcUGFydGlhbF9Gb290ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -85,6 +89,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/n20c1/Documents/GitHub/N_TierArchitectureProject/NKatmanliProje/NKatmanliProje/Views/Product/UpdateProduct.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxVcGRhdGVQcm9kdWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/n20c1/Documents/GitHub/N_TierArchitectureProject/NKatmanliProje/NKatmanliProje/Views/Register/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0ZXJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/n20c1/Documents/GitHub/N_TierArchitectureProject/NKatmanliProje/NKatmanliProje/Views/Shared/Error.cshtml]
