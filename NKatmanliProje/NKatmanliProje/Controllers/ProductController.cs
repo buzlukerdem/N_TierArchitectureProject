@@ -4,7 +4,7 @@ using DataAccessLayer.EntityFramework;
 using EntityLayer.Concrete;
 using FluentValidation.Results;
 using Microsoft.AspNetCore.Mvc;
-
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace NKatmanliProje.Controllers
 {
@@ -17,12 +17,20 @@ namespace NKatmanliProje.Controllers
         ProductManager productManager = new ProductManager(new EfProductDal());
         public IActionResult Index()
         {
-            var values = productManager.TGetAll();
+            var values = productManager.GetProductListWithCategory();
             return View(values);
         }
         [HttpGet]
         public IActionResult AddProduct()
         {
+            CategoryManager categoryManager = new CategoryManager(new EfCategoryDal());
+            List<SelectListItem> values = (from x in categoryManager.TGetAll()
+                                           select new SelectListItem
+                                           {
+                                               Text = x.Name,
+                                               Value = x.CategoryId.ToString()
+                                           }).ToList();
+            ViewBag.v = values;
             return View();
         }
         [HttpPost]

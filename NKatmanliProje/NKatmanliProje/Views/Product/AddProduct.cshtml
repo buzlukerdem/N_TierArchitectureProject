@@ -19,11 +19,14 @@
 	<br />
 	@Html.Label("Ürün Model")
 	@Html.TextBoxFor(x=>x.Brand,new {@class="form-control"})
-	@Html.ValidationMessageFor(x=>x.Brand) 
+	@Html.ValidationMessageFor(x=>x.Brand)
 	<br />
 	@Html.Label("Ürün Stok")
 	@Html.TextBoxFor(x=>x.Stock,new {@class="form-control"})
-	@Html.ValidationMessageFor(x=>x.Stock) 
+	@Html.ValidationMessageFor(x=>x.Stock)
+	<br />
+	@Html.Label("Kategori")
+	@Html.DropDownListFor(x=>x.CategoryId,(List<SelectListItem>)ViewBag.v, new{@class="form-control"})
 	<br />
 	<button class="btn btn-primary">Ürün Ekle</button>
 </form>

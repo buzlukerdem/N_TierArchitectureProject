@@ -27,6 +27,8 @@
 	@Html.TextBoxFor(x=>x.Age,new {@class="form-control"})
 	@Html.ValidationMessageFor(x=>x.Age) 
 	<br />
+	@Html.Label("Mesleği")
+	@Html.DropDownListFor(x=>x.JobId,(List<SelectListItem>)ViewBag.v, new{@class="form-control"})
 	<button class="btn btn-primary">Müşteri Ekle</button>
 </form>
 

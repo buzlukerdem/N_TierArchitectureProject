@@ -31,6 +31,8 @@
 	@Html.ValidationMessageFor(x=>x.Age)
 	@Html.TextAreaFor(x=>x.Age, new {@class = "form-control"})
 	<br />
+	@Html.Label("Mesleği")
+	@Html.DropDownListFor(x=>x.JobId,(List<SelectListItem>)ViewBag.v, new{@class="form-control"})
 	<button class="btn btn-info">Müşteri Güncelle</button>
 </form>
 

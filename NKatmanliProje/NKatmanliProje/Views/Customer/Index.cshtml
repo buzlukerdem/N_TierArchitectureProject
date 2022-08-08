@@ -13,6 +13,7 @@
         <th>E-Mail</th>
         <th>Şehir</th>
         <th>Yaş</th>
+        <th>Meslek</th>
         <th>Sil</th>
         <th>Güncelle</th>
     </tr>
@@ -25,6 +26,7 @@
             <td>@item.Email</td>
             <td>@item.City</td>
             <td>@item.Age</td>
+            <td>@item.Job.Name</td>
             <td><a href="/Customer/DeleteCustomer/@item.Id" class="btn btn-danger">Sil</a></td>
             <td><a href="/Customer/UpdateCustomer/@item.Id" class="btn btn-success">Güncelle</a></td>
 

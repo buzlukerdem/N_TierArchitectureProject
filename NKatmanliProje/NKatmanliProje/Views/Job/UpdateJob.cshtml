@@ -1,0 +1,19 @@
+﻿@model EntityLayer.Concrete.Job
+@{
+    ViewData["Title"] = "UpdateJob";
+    Layout = "~/Views/Shared/_UILayout.cshtml";
+}
+
+<h1>Meslek Güncelleme</h1>
+
+
+<form method="post">
+	@Html.Label("Meslek ID")
+	@Html.TextAreaFor(x=>x.JobId, new {@class = "form-control"})
+	<br />
+	@Html.Label("Meslek Adı")
+	@Html.TextAreaFor(x=>x.Name, new {@class = "form-control"})
+	@Html.ValidationMessageFor(x=>x.Name)
+	<br />
+	<button class="btn btn-info">Meslek Güncelle</button>
+</form>

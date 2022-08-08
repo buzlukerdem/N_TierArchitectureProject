@@ -20,6 +20,11 @@ namespace BusinessLayer.Concrete
             _productDal = productDal;
         }
 
+        public List<Product> GetProductListWithCategory()
+        {
+            return _productDal.GetProductsListWithCategory();
+        }
+
         public void TDelete(Product t)
         {
             _productDal.Delete(t);

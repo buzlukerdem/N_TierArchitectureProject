@@ -15,6 +15,18 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\n20c1\Documents\GitHub\N_TierArchitectureProject\NKatmanliProje\NKatmanliProje
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/n20c1/Documents/GitHub/N_TierArchitectureProject/NKatmanliProje/NKatmanliProje/Views/Category/AddCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQWRkQ2F0ZWdvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/n20c1/Documents/GitHub/N_TierArchitectureProject/NKatmanliProje/NKatmanliProje/Views/Category/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/n20c1/Documents/GitHub/N_TierArchitectureProject/NKatmanliProje/NKatmanliProje/Views/Category/UpdateCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcVXBkYXRlQ2F0ZWdvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/n20c1/Documents/GitHub/N_TierArchitectureProject/NKatmanliProje/NKatmanliProje/Views/Customer/AddCustomer.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcQWRkQ3VzdG9tZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -33,6 +45,18 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/n20c1/Documents/GitHub/N_TierArchitectureProject/NKatmanliProje/NKatmanliProje/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/n20c1/Documents/GitHub/N_TierArchitectureProject/NKatmanliProje/NKatmanliProje/Views/Job/AddJob.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iXEFkZEpvYi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/n20c1/Documents/GitHub/N_TierArchitectureProject/NKatmanliProje/NKatmanliProje/Views/Job/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/n20c1/Documents/GitHub/N_TierArchitectureProject/NKatmanliProje/NKatmanliProje/Views/Job/UpdateJob.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iXFVwZGF0ZUpvYi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/n20c1/Documents/GitHub/N_TierArchitectureProject/NKatmanliProje/NKatmanliProje/Views/Partials/Partial_Footer.cshtml]

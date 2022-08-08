@@ -13,6 +13,8 @@ namespace EntityLayer.Concrete
         public string Surname { get; set; }
         public string Email { get; set; }
         public string City { get; set; }
-        public int Age { get; set; }     
+        public int Age { get; set; }
+        public int JobId { get; set; }
+        public Job Job { get; set; }
     }
 }

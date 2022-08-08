@@ -4,6 +4,7 @@ using DataAccessLayer.EntityFramework;
 using EntityLayer.Concrete;
 using FluentValidation.Results;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace NKatmanliProje.Controllers
 {
@@ -12,14 +13,23 @@ namespace NKatmanliProje.Controllers
         // manager eklenmeli
 
         CustomerManager customerManager = new CustomerManager(new EfCustomerDal());
+        JobManager jobManager = new JobManager(new EfJobDal());
         public IActionResult Index()
         {
-            var values = customerManager.TGetAll();
+            var values = customerManager.GetCustomerListWithJob();
             return View(values);
         }
         [HttpGet]
         public ActionResult AddCustomer()
         {
+            
+            List<SelectListItem> values = (from x in jobManager.TGetAll()
+                                           select new SelectListItem
+                                           {
+                                               Text = x.Name,
+                                               Value = x.JobId.ToString()
+                                           }).ToList();
+            ViewBag.v = values;
             return View();
         }
         [HttpPost]
@@ -53,6 +63,13 @@ namespace NKatmanliProje.Controllers
         public IActionResult UpdateCustomer(int id)
         {
             // once id ye erismek lazim
+            List<SelectListItem> values = (from x in jobManager.TGetAll()
+                                           select new SelectListItem
+                                           {
+                                               Text = x.Name,
+                                               Value = x.JobId.ToString()
+                                           }).ToList();
+            ViewBag.v = values;
             var value = customerManager.TGetById(id);
             return View(value);
         }
