@@ -66,6 +66,13 @@ namespace NKatmanliProje.Controllers
         public IActionResult UpdateProduct(int id)
         {
             // once id ye erismek lazim
+            List<SelectListItem> values = (from x in productManager.TGetAll()
+                                           select new SelectListItem
+                                           {
+                                               Text = x.Name,
+                                               Value = x.CategoryId.ToString()
+                                           }).ToList();
+            ViewBag.v = values;
             var value = productManager.TGetById(id);
             return View(value);
         }

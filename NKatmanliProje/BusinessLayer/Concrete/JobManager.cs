@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace BusinessLayer.Concrete
 {
-    public class JobManager : IJobService
+    public class JobManager : IGenericService<Job>
     {
         // JobDal kimsi
         IJobDal _jobDal;

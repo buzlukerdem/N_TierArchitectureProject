@@ -1,5 +1,7 @@
 using DataAccessLayer.Concrete;
 using EntityLayer.Concrete;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc.Authorization;
 using NKatmanliProje.Models;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -8,6 +10,17 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<Context>();
 builder.Services.AddIdentity<AppUser, AppRole>().AddEntityFrameworkStores<Context>().AddErrorDescriber < CustomerIdentityValidator>();
+// bu komut uygulamadaki auth islemini proje seviyesine cikarir. Butun sayfalara auth islemi uygular.
+builder.Services.AddMvc(config =>
+{
+    var policy = new AuthorizationPolicyBuilder().RequireAuthenticatedUser().Build();
+    config.Filters.Add(new AuthorizeFilter(policy));
+});
+// auth olmadiginda belirli sayfaya yonlendirme
+builder.Services.ConfigureApplicationCookie(options =>
+{
+    options.LoginPath = "/Login/Index";
+});
 
 
 var app = builder.Build();
@@ -22,7 +35,7 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
-
+app.UseAuthentication(); // auth dahil edildi.
 app.UseRouting();
 
 app.UseAuthorization();
