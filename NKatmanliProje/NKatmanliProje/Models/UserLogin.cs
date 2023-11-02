@@ -9,5 +9,13 @@ namespace NKatmanliProje.Models
 
         [Required(ErrorMessage = "Lütfen şifrenizi girin")]
         public string Password { get; set; }
+
+
     }
+
+
 }
+
+
+
+

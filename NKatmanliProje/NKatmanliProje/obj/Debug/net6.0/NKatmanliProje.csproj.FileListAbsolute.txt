@@ -274,3 +274,8 @@ C:\Users\n20c1\Documents\GitHub\N_TierArchitectureProject\NKatmanliProje\NKatman
 C:\Users\n20c1\Documents\GitHub\N_TierArchitectureProject\NKatmanliProje\NKatmanliProje\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\n20c1\Documents\GitHub\N_TierArchitectureProject\NKatmanliProje\NKatmanliProje\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
 C:\Users\n20c1\Documents\GitHub\N_TierArchitectureProject\NKatmanliProje\NKatmanliProje\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\n20c1\Documents\GitHub\N_TierArchitectureProject\NKatmanliProje\NKatmanliProje\obj\Debug\net6.0\staticwebassets\msbuild.NKatmanliProje.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\n20c1\Documents\GitHub\N_TierArchitectureProject\NKatmanliProje\NKatmanliProje\obj\Debug\net6.0\staticwebassets\msbuild.build.NKatmanliProje.props
+C:\Users\n20c1\Documents\GitHub\N_TierArchitectureProject\NKatmanliProje\NKatmanliProje\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.NKatmanliProje.props
+C:\Users\n20c1\Documents\GitHub\N_TierArchitectureProject\NKatmanliProje\NKatmanliProje\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.NKatmanliProje.props
+C:\Users\n20c1\Documents\GitHub\N_TierArchitectureProject\NKatmanliProje\NKatmanliProje\obj\Debug\net6.0\staticwebassets.pack.json

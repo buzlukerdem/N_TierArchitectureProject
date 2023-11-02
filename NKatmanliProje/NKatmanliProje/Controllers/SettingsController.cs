@@ -41,6 +41,5 @@ namespace NKatmanliProje.Controllers
             }
             return View();
         }
-     
     }
 }
